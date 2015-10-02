@@ -19,3 +19,20 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #D3E5E2;
+}
+
+img {
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+}
+
+h2 {
+  font-weight: 400;
+}
