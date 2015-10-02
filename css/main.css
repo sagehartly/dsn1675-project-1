@@ -41,33 +41,33 @@ h1 {
   font-family: 'Kaushan Script', cursive;
   position: absolute;
   font-size: 2em;
-  bottom: 0.5em;
+
+  bottom: 0.25em;
   padding: 0.25em 0.5em;
   text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0 20%;
   color: white;
   font-weight: normal;
   text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba(0,0,0,0.8);
 
   border-color: white;
   border-width: thin;
-  border-style: dotted;
+  border-style: solid;
 
-  width: 80%;
+  width: 60%;
 
 }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: normal;
 }
 
 .h2-1 {
   text-align: center;
   background-color: #AFD6D4;
-  margin: 0 0 0 10%;
-  width: 25%;
+  margin: 0;
+  width: 35%;
   padding: 0 0 1em 0;
   float: left;
   padding: 0.5em;
@@ -78,35 +78,39 @@ h2 {
   background-color: white;
   margin: 0 2.5% 1em 2.5%;
   width: 25%;
-  padding: 0 0 1em 0;
   float: left;
-  padding: 0.5em;
+  padding: 0.5em 1em 1em 1em;
 }
 
 .h2-3 {
   background-color: #AFD6D4;
   text-align: center;
-  margin: 0 10% 0 0;
-  width: 25%;
+  margin: 0;
+  width: 35%;
   padding: 0 0 1em 0;
   float: left;
   padding: 0.5em;
 }
 
 .about-me {
-
   padding: 0.5em 2em;
   margin: 1em;
   clear: both;
 }
 
-footer {
-background-color: black;
+.social-media {
+  width: 20%;
+  float: left;
 }
 
+.behance {
+  margin: 0 0 1em 10%;
+}
 
+.instagram {
+  margin: 0 10% 1em 10%;
+}
 
-.social-media {
-  width: 30%;
-  padding: 1em;
+.linkedin {
+  margin: 0 10% 1em 0;
 }
