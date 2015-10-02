@@ -22,6 +22,7 @@ html {
 
 body {
   background-color: #D3E5E2;
+  font-size: 1em;
 }
 
 img {
@@ -29,10 +30,30 @@ img {
   width: 100%;
 }
 
+.profile {
+  position: relative;
+}
+
 h1 {
   font-family: 'Kaushan Script', cursive;
+  position: absolute;
+  top: 12rem;
 }
 
 h2 {
   font-weight: 400;
+  font-size: 19.2px;
+  line-height: 1.3em;
+  margin-top: 2em;
+}
+
+p {
+  background-color: #338459;
+  padding: 1em 2em;
+  color: white;
+}
+
+.social-media {
+  width: 30%;
+  padding: 1em;
 }
