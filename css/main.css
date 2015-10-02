@@ -67,6 +67,25 @@ h1 {
 
 }
 
+@media only screen and (min-width: 44em) {
+
+  .profile {
+    width: 65%;
+    margin: 0 17.5%;
+  }
+
+}
+
+@media only screen and (min-width: 44em) {
+
+  h1 {
+    width: 50%;
+    margin: 0 25%;
+  }
+
+}
+
+
 
 /*------------blocks section-------------*/
 
@@ -104,6 +123,28 @@ h2 {
   padding: 0.5em;
 }
 
+@media only screen and (min-width: 29em) {
+
+  .profile {
+    width: 80%;
+    margin: 0 10%;
+  }
+
+  .h2-1 {
+    width: 25%;
+    margin-left: 10%;
+
+  }
+
+  .h2-2 {
+    width: 25%;
+  }
+
+  .h2-3 {
+    width: 25%;
+  }
+}
+
 /*------------body text-------------*/
 
 .about-me {
@@ -112,41 +153,89 @@ h2 {
   clear: both;
 }
 
+@media only screen and (min-width: 29em) {
+
+  .about-me {
+    width: 80%;
+    margin: 0 10%;
+    padding: 1em 0;
+  }
+
+}
+
+@media only screen and (min-width: 44em) {
+
+  .about-me {
+    width: 60%;
+    margin: 1em 0 0 0;
+    padding: 0 0 2em 4.75em;
+    float: left;
+  }
+
+}
+
 /*------------footer-------------*/
 
-.social-media {
+.behance {
+  margin: 0 0 1em 10%;
   width: 20%;
   float: left;
 }
 
-.behance {
-  margin: 0 0 1em 10%;
-}
-
 .instagram {
   margin: 0 10% 1em 10%;
+  width: 20%;
+  float: left;
 }
 
 .linkedin {
   margin: 0 10% 1em 0;
+  width: 20%;
+  float: left;
 }
 
 @media only screen and (min-width: 24em) {
 
-  .social-media {
-    width: 15%;
-  }
-
   .behance {
     margin: 0 0 1em 13%;
+    width: 15%;
   }
 
   .instagram {
     margin: 0 13% 1em 13%;
+    width: 15%;
   }
 
   .linkedin {
     margin: 0 13% 1em 0;
+    width: 15%;
+  }
+
+}
+
+@media only screen and (min-width: 44em) {
+
+  .social-media {
+    width: 40%;
+    float: right;
+    padding: 0 4.75em 0 0;
+  }
+
+  .behance {
+    width: 25%;
+    padding: 2em 0 1em 0;
+    margin: 0 30% 0 45%;
+  }
+
+  .instagram {
+    width: 25%;
+    margin: 0 30% 0 45%;
+    padding-bottom: 1em;
+  }
+
+  .linkedin {
+    width: 25%;
+    margin: 0 30% 0 45%;
   }
 
 }
