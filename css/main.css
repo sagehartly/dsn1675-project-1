@@ -32,6 +32,7 @@ header {
   position: relative;
   text-align: center;
 }
+
 .profile {
   margin: 0;
   width: 100%;
@@ -51,9 +52,9 @@ h1 {
   font-weight: normal;
   text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba(0,0,0,0.8);
 
-  border-color: white;
-  border-width: thin;
-  border-style: solid;
+  border-color: #AFD6D4;
+  border-width: medium;
+  border-style: double;
 
   width: 60%;
 }
@@ -74,18 +75,24 @@ h1 {
     margin: 0 17.5%;
   }
 
-}
-
-@media only screen and (min-width: 44em) {
-
   h1 {
     width: 50%;
     margin: 0 25%;
+    bottom: 20px;
   }
 
 }
 
+@media only screen and (min-width: 52em) {
 
+  .profile {
+    width: 12em;
+    margin: 30%;
+    padding: 0 8em;
+    background-color: black;
+  }
+
+}
 
 /*------------blocks section-------------*/
 
@@ -237,5 +244,20 @@ h2 {
     width: 25%;
     margin: 0 30% 0 45%;
   }
+
+}
+
+@media only screen and (min-width: 50em) {
+
+  .social-media {
+    width: 30%;
+    float: right;
+    padding: 0 5em 0 0;
+  }
+}
+
+@media only screen and (min-width: 62em) {
+
+
 
 }
