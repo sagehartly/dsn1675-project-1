@@ -290,3 +290,11 @@ h2 {
   }
 
 }
+
+/*------------PRINT----------*/
+
+.print-layout {
+  display: none;
+}
+
+.print-layout
