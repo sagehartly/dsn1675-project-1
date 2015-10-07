@@ -258,6 +258,35 @@ h2 {
 
 @media only screen and (min-width: 62em) {
 
+  .social-media {
+    width: 40%;
+    padding: 3em 0 0 0;
+  }
 
+  .about-me {
+    float: left;
+    width: 60%;
+  }
+
+  .behance {
+    margin: 0 0 0 16%;
+    padding: 0;
+    width: 12%;
+    float: left;
+  }
+
+  .instagram {
+    margin: 0 10%;
+    padding: 0;
+    width: 12%;
+    float: left;
+  }
+
+  .linkedin {
+    margin: 0 16% 0 0;
+    padding: 0;
+    width: 12%;
+    float: left;
+  }
 
 }
