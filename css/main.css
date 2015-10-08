@@ -28,7 +28,7 @@ body {
 
 @media only screen and (min-width: 44em) {
 
-  body {
+  body, h1 {
     font-size: 1.1rem;
     line-height: 1.4;
   }
@@ -94,9 +94,10 @@ h1 {
   }
 
   h1 {
-    width: 50%;
-    margin: 0 25%;
+    width: 40%;
+    margin: 0 30%;
     bottom: 20px;
+    font-size: 2.5rem;
   }
 
 }
@@ -107,11 +108,18 @@ h1 {
     width: 12em;
     margin: 30%;
     padding: 0 8em;
-    background-color: black;
+    background-color: #AFD6D4;
   }
 
 }
 
+@media only screen and (min-width: 90em) {
+
+  h1 {
+    font-size: 4em;
+  }
+
+}
 /*------------blocks section-------------*/
 
 h2 {
@@ -150,6 +158,10 @@ h2 {
 
 @media only screen and (min-width: 29em) {
 
+  h2 {
+    font-weight: 500;
+  }
+
   .profile {
     width: 80%;
     margin: 0 10%;
@@ -168,6 +180,21 @@ h2 {
   .h2-3 {
     width: 25%;
   }
+}
+
+@media only screen and (min-width: 44em) {
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+  h2 {
+    font-size: 1.5em;
+  }
+
 }
 
 /*------------body text-------------*/
