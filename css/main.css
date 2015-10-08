@@ -358,7 +358,7 @@ h2 {
 
   .print-layout {
     display: block;
-    width: 336px;
+    width: 320px;
     padding: 0.25em;
 
     border-width: thin;
@@ -367,7 +367,6 @@ h2 {
 
     margin: auto;
     overflow: hidden;
-
   }
 
   .profile-print {
@@ -378,7 +377,7 @@ h2 {
   .print-type {
     width: 80%;
     float: left;
-    padding-left: 1em;
+    padding: 0 0 2em 1em;
   }
 
   .print-h1 {
