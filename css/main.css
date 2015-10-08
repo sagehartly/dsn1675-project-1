@@ -339,10 +339,55 @@ h2 {
 
 }
 
-/*------------PRINT----------*/
+
+/*-----------------PRINT INSTRUCTIONS---------*/
 
 .print-layout {
   display: none;
 }
 
-.print-layout
+@media print {
+
+  header, footer {
+    display: none;
+  }
+
+  .h2-section, .about-me {
+    display: none;
+  }
+
+  .print-layout {
+    display: block;
+    width: 336px;
+    padding: 0.25em;
+
+    border-width: thin;
+    border-style: solid;
+    border-spacing: 2px;
+
+    margin: auto;
+    overflow: hidden;
+
+  }
+
+  .profile-print {
+    width: 20%;
+    float: left;
+  }
+
+  .print-type {
+    width: 80%;
+    float: left;
+    padding-left: 1em;
+  }
+
+  .print-h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5em;
+  }
+
+  .print-h2 {
+    font-size: 14px;
+  }
+
+}
