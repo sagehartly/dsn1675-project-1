@@ -26,6 +26,24 @@ body {
   background-color: #e6f1e7;
 }
 
+@media only screen and (min-width: 44em) {
+
+  body {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width:90em) {
+
+  body {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+}
+
 /*------------HEADER-------------*/
 
 header {
@@ -260,33 +278,36 @@ h2 {
 
   .social-media {
     width: 40%;
-    padding: 3em 0 0 0;
+    margin: 2em 10% 0 0;
+    padding: 0;
   }
 
   .about-me {
     float: left;
-    width: 60%;
+    width: 40%;
+    margin-left: 10%;
+    padding: 0;
   }
 
   .behance {
-    margin: 0 0 0 16%;
+    margin: 0;
     padding: 0;
     width: 12%;
-    float: left;
+    float: right;
   }
 
   .instagram {
-    margin: 0 10%;
+    margin: 0 4em;
     padding: 0;
     width: 12%;
-    float: left;
+    float: right;
   }
 
   .linkedin {
-    margin: 0 16% 0 0;
+    margin: 0;
     padding: 0;
     width: 12%;
-    float: left;
+    float: right;
   }
 
 }
